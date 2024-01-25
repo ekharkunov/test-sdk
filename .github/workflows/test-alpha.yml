@@ -9,7 +9,7 @@ on:
 
 jobs:
   test:
-    uses: ./.github/workflows/test
+    uses: ./.github/workflows/test.yml
     with:
       channel: alpha
     secrets:
