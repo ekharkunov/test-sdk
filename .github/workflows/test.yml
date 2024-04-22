@@ -65,7 +65,7 @@ jobs:
           'https://github.com/defold/extension-resource-encryption/archive/refs/heads/master.zip'
         ]
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+      - uses: actions/checkout@1d96c772d19495a3b5c517cd2bc0cb401ea0529f
       - uses: actions/setup-java@387ac29b308b003ca37ba93a6cab5eb57c8f5f93
         with:
           java-version: '17.0.5+8'
